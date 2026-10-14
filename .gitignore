@@ -1,0 +1,7 @@
+backup-v1/
+.claude/
+hero-fx.js
+assets/media/hero-swing.data.js
+*.zip
+Thumbs.db
+desktop.ini

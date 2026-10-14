@@ -1,0 +1,274 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}</script>
+<title>Lemon — Advertising Agency</title>
+<meta name="description" content="Lemon Advertising Agency: social media design, AI videos, GIFs and print.">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="assets/media/icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="assets/media/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Alexandria:wght@600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/media/lemon-logo.webp">
+<link rel="stylesheet" href="style.css?v=23">
+</head>
+<body>
+
+<div class="loader" id="loader">
+  <img class="loader-me loader-logo" src="assets/media/lemon-logo.webp" alt="Lemon Advertising Agency">
+  <p class="loader-hi" dir="rtl" lang="ar"><span>منوّر</span> <span>ياعزيزى</span> <span>الفنان</span></p>
+  <div class="loader-bar"><i></i></div>
+</div>
+<div class="cursor" id="cursor"></div>
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo" aria-label="Lemon Advertising Agency"><img class="lg-w" src="assets/media/lemon-logo.webp" alt="Lemon Advertising Agency"><img class="lg-d" src="assets/media/lemon-logo-dark.webp" alt=""></a>
+  <nav class="links" id="links">
+    <a href="#about" data-en="About" data-ar="عني"></a>
+    <a href="#services" data-en="Services" data-ar="خدماتي"></a>
+    <a href="#work" data-en="Work" data-ar="أعمالي"></a>
+    <a href="#contact" data-en="Contact" data-ar="تواصل"></a>
+  </nav>
+  <div class="nav-right">
+    <button class="lang theme-btn" id="theme" aria-label="Switch between night and day mode">
+      <svg class="i-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.500 14.200A8.500 8.500 0 0 1 9.800 3.500a.700.700 0 0 0-.900-.900A9.500 9.500 0 1 0 21.400 15.100a.700.700 0 0 0-.900-.900z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.200" fill="currentColor"/><path d="M12 2.500v2.200M12 19.300v2.200M2.500 12h2.200M19.300 12h2.200M5.300 5.300l1.600 1.600M17.100 17.100l1.600 1.600M5.300 18.700l1.600-1.600M17.100 6.900l1.600-1.600"/></svg>
+    </button>
+    <button class="burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<div class="anchor" id="home"></div>
+<section class="panel hero">
+  <div class="hero-media" id="heroMedia">
+    <img src="assets/media/hero-lemon.webp" alt="Lemon Advertising Agency" fetchpriority="high">
+  </div>
+  <div class="hero-shade"></div>
+  <div class="hero-dark" id="heroDark" aria-hidden="true"></div>
+  <h1 class="hero-name"><span id="heroName" data-en="LEMON AGENCY" data-ar="ليمون"></span></h1>
+  <div class="hero-row">
+    <div class="hero-intro reveal">
+      <span class="hero-role" data-en="Advertising Agency · Design · Video · AI" data-ar="وكالة إعلانية · تصميم · فيديو · AI"></span>
+      <p data-en="Social media designs, AI videos, GIFs & print — bold, memorable visuals for brands." data-ar="تصميمات سوشيال ميديا، فيديوهات AI، GIFs ومطبوعات — شغل جريء بيعلّم مع البراندات."></p>
+    </div>
+    <div class="hero-cta reveal">
+      <a href="#work" class="hero-link" data-en="View our work ↓" data-ar="شوف أعمالي ↓"></a>
+      <a href="#contact" class="pill magnetic"><span data-en="Contact us" data-ar="تواصل معايا"></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<div class="anchor" id="clients"></div>
+<section class="panel clients-sec">
+  <div class="wrap clients-grid">
+    <div class="clients-copy">
+      <p class="work-no" data-en="TRUSTED BY" data-ar="عملاء اشتغلت معاهم"></p>
+      <h2 class="ttl title-case" data-en="Brands we've worked with" data-ar="براندات اشتغلت معاها"></h2>
+      <p class="clients-lead" data-en="Restaurants, cafés, real estate, supplements and more — brands that trusted us with how they look." data-ar="مطاعم وكافيهات وعقارات ومكملات غذائية وغيرهم — براندات وثقت فيّا في شكلها قدام الناس."></p>
+      <div class="clients-stat reveal"><b data-count="16" data-suffix="+">0</b><span data-en="brands and counting" data-ar="براند ولسه مكملين"></span></div>
+      <p class="hint" data-en="Drag the wall to explore" data-ar="اسحب الحيطة عشان تشوف أكتر"></p>
+    </div>
+    <div class="lwall"><div class="lwall-in">
+      <div class="lrow"><div class="ltrack" id="logos1"></div></div>
+      <div class="lrow"><div class="ltrack" id="logos2"></div></div>
+      <div class="lrow"><div class="ltrack" id="logos3"></div></div>
+    </div></div>
+  </div>
+</section>
+<!-- ABOUT -->
+<div class="anchor" id="about"></div>
+<section class="panel about-sec">
+  <i class="obj o-sphere" data-speed=".18"></i>
+  <i class="obj o-pill" data-speed="-.12"></i>
+  <i class="obj o-ring" data-speed=".1"></i>
+  <i class="obj o-star" data-speed="-.2">✦</i>
+  <i class="obj o-sphere sm" data-speed=".25"></i>
+  <div class="wrap center">
+    <h2 class="ttl outline" data-en="ABOUT US" data-ar="عننا"></h2>
+    <p class="words" data-en="We're Lemon — an advertising agency that lives between design, motion and AI. We mix a designer's eye, an editor's rhythm and the newest AI tools to deliver work that looks premium, tells a story and ships fast. Let's create something amazing together!" data-ar="أنا عاصم — بشتغل في المنطقة اللي بين التصميم والحركة والذكاء الاصطناعي. بجمع عين المصمم وإيقاع المونتير وأحدث أدوات الـ AI عشان أطلّع شغل شكله احترافي، بيحكي حكاية، وبيتسلّم بسرعة. يلا نعمل حاجة عظيمة سوا!"></p>
+    <ul class="stats reveal">
+      <li><b data-count="5" data-suffix="+">0</b><small data-en="Years experience" data-ar="سنين خبرة"></small></li>
+      <li><b data-count="150" data-suffix="+">0</b><small data-en="Projects delivered" data-ar="مشروع اتسلّم"></small></li>
+      <li><b data-count="15" data-suffix="+">0</b><small data-en="Brands" data-ar="براند"></small></li>
+    </ul>
+    <a href="#contact" class="pill magnetic reveal"><span data-en="Contact us" data-ar="تواصل معايا"></span></a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<div class="anchor" id="services"></div>
+<section class="panel light services-sec">
+  <div class="wrap">
+    <h2 class="ttl" data-en="SERVICES" data-ar="خدماتي"></h2>
+    <ol class="svc">
+      <li class="reveal"><a href="#social"><b>01</b><div><h3 data-en="Social Media Design" data-ar="تصميمات سوشيال ميديا"></h3><p data-en="Posts, carousels, stories and full campaign visuals that stop the scroll and stay on brand." data-ar="بوستات وكاروسيل وستوريز وحملات كاملة بتوقف السكرول وماشية على هوية البراند."></p></div><span class="arr">↗</span></a></li>
+      <li class="reveal"><a href="#reel"><b>02</b><div><h3 data-en="AI Videos" data-ar="فيديوهات AI"></h3><p data-en="Cinematic AI-generated commercials, product shots and concept films built with the latest generative tools." data-ar="إعلانات سينمائية بالذكاء الاصطناعي، برودكت شوتس وأفلام كونسبت بأحدث الأدوات."></p></div><span class="arr">↗</span></a></li>
+      <li class="reveal"><a href="#gifs"><b>03</b><div><h3 data-en="GIFs & Motion" data-ar="GIFs وموشن"></h3><p data-en="Looping animations, stickers and animated posts that bring a brand to life in seconds." data-ar="أنيميشن متكرر واستيكرز وبوستات متحركة بتدّي البراند روح في ثواني."></p></div><span class="arr">↗</span></a></li>
+      <li class="reveal"><a href="#print"><b>04</b><div><h3 data-en="Print Design" data-ar="المطبوعات"></h3><p data-en="Flyers, posters, menus, packaging and brand stationery — designed to look as good in hand as on screen." data-ar="فلايرز وبوسترات ومنيوهات وباكدج وأدوات البراند — متصممة تبان حلوة في الإيد زي على الشاشة."></p></div><span class="arr">↗</span></a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- WORK 01: SOCIAL MEDIA -->
+<div class="anchor" id="work"></div>
+<div class="anchor" id="social"></div>
+<section class="panel social-sec">
+  <div class="wrap">
+    <p class="work-no">WORK 01 / 04</p>
+    <h2 class="ttl" data-en="SOCIAL MEDIA" data-ar="سوشيال ميديا"></h2>
+  </div>
+  <div class="grow"><div class="gtrack" id="social1"></div></div>
+  <div class="grow rev"><div class="gtrack" id="social2"></div></div>
+  <p class="hint" data-en="Click any design to view it full size" data-ar="اضغط على أي تصميم عشان تشوفه كبير"></p>
+</section>
+<!-- AI VIDEOS WHEEL -->
+<div class="anchor" id="reel"></div>
+<section class="panel reel-sec">
+  <div class="wrap">
+    <div class="reel-head">
+      <p class="work-no">WORK 02 / 04</p>
+      <div class="reel-nav">
+        <button id="reelPrev" aria-label="Previous">←</button>
+        <button id="reelNext" aria-label="Next">→</button>
+      </div>
+    </div>
+    <div class="wheel-stage" id="wheelStage">
+      <div class="wheel" id="wheel"></div>
+      <div class="hub">
+        <svg class="hub-ring" viewBox="0 0 300 300" aria-hidden="true">
+          <defs><path id="hubPath" d="M150,150 m-128,0 a128,128 0 1,1 256,0 a128,128 0 1,1 -256,0"/></defs>
+          <text><textPath href="#hubPath" textLength="800" lengthAdjust="spacing">AI VIDEOS ✦ AI VIDEOS ✦ AI VIDEOS ✦ AI VIDEOS ✦ AI VIDEOS ✦ </textPath></text>
+        </svg>
+        <div class="hub-core">
+          <span class="hub-mark">▲</span>
+          <b>AI VIDEOS</b>
+          <small><span id="reelNow">01</span> / <span id="reelAll">00</span></small>
+          <em id="wheelTitle"></em>
+        </div>
+      </div>
+    </div>
+    <p class="hint" data-en="Drag to spin the wheel · Click a video to watch" data-ar="اسحب عشان تلف العجلة · اضغط على أي فيديو عشان تشوفه"></p>
+  </div>
+</section>
+<div class="dwell" aria-hidden="true"></div>
+
+
+<!-- WORK 03: GIFS -->
+<div class="anchor" id="gifs"></div>
+<section class="panel gifs-sec">
+  <div class="wrap">
+    <p class="work-no">WORK 03 / 04</p>
+    <h2 class="ttl outline" data-en="GIFS" data-ar="GIFS"></h2>
+    <div class="bento" id="bento"></div>
+  </div>
+</section>
+
+<!-- WORK 04: PRINT -->
+<div class="anchor" id="print"></div>
+<section class="panel light print-sec" id="printSec">
+  <div class="print-pin">
+    <div class="wrap print-head">
+      <p class="work-no">WORK 04 / 04</p>
+      <h2 class="ttl left" data-en="PRINT" data-ar="مطبوعات"></h2>
+      <p class="print-count"><b id="printNow">01</b> / <span id="printAll">00</span></p>
+    </div>
+    <div class="print-track" id="printTrack"></div>
+  </div>
+</section>
+<!-- CONTACT -->
+<div class="anchor" id="contact"></div>
+<section class="panel light contact-sec">
+  <i class="obj o-pill red" data-speed=".15"></i>
+  <div class="wrap contact-grid">
+    <div class="contact-left">
+      <h2 class="ttl left" data-en="LET'S GET IN TOUCH" data-ar="يلا نتكلم"></h2>
+      <a class="mail" href="mailto:assemdarwish.1@gmail.com">assemdarwish.1@gmail.com</a>
+    </div>
+    <form class="form reveal" id="form">
+      <label><span data-en="Full name" data-ar="الاسم"></span><input name="name" required></label>
+      <div class="form-2">
+        <label><span data-en="Email" data-ar="الإيميل"></span><input name="email" type="email" required></label>
+        <label><span data-en="Phone" data-ar="الموبايل"></span><input name="phone" type="tel"></label>
+      </div>
+      <label><span data-en="Message" data-ar="رسالتك"></span><textarea name="msg" rows="3" required></textarea></label>
+      <button class="pill outline" type="submit"><span data-en="Send" data-ar="ابعت"></span></button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="panel foot-sec">
+  <div class="wrap foot-grid">
+    <div class="foot-copy">
+      <h4 data-en="Social" data-ar="سوشيال"></h4>
+      <h2 class="foot-title" data-en="Follow the work as it happens." data-ar="تابع الشغل أول بأول."></h2>
+      <p class="foot-lead" data-en="New designs, GIFs and AI videos land here first." data-ar="أحدث التصميمات والـ GIFs وفيديوهات الـ AI بتنزل هنا الأول."></p>
+    </div>
+    <div class="orbit" id="orbit">
+      <span class="orbit-ring"></span><span class="orbit-ring r2"></span>
+      <img class="me lemon-me" src="assets/media/lemon-mark.webp?v=2" alt="" draggable="false">
+      <a class="soc s1" href="https://www.instagram.com/darwissh.1" target="_blank" rel="noopener" aria-label="Instagram"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg></i><b>Instagram</b></a>
+      <a class="soc s2" href="https://www.facebook.com/share/1Do2ATToqX/" target="_blank" rel="noopener" aria-label="Facebook"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.6-1.5h1.4V4.4c-.3 0-1.1-.1-2.100-.1-2.200 0-3.600 1.300-3.600 3.700v2.500H8.300v3h2.500V21z"/></svg></i><b>Facebook</b></a>
+      <a class="soc s3" href="https://www.tiktok.com/@darwishl2.0l" target="_blank" rel="noopener" aria-label="TikTok"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.500 3c.300 2.100 1.500 3.500 3.500 3.700v2.900c-1.300 0-2.500-.400-3.500-1.100v6.300c0 3.200-2.300 5.200-5.100 5.200S6.500 17.900 6.500 15.200c0-3 2.500-5.300 5.700-4.800v3c-1.500-.400-2.700.500-2.700 1.800 0 1.200.9 2 2 2 1.200 0 2.100-.800 2.100-2.300V3z"/></svg></i><b>TikTok</b></a>
+      <a class="soc s4" href="https://youtube.com/@darwissh.1" target="_blank" rel="noopener" aria-label="YouTube"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.600 7.200c-.200-.900-.900-1.500-1.800-1.800C18.200 5 12 5 12 5s-6.200 0-7.800.400c-.900.300-1.600.900-1.800 1.800C2 8.800 2 12 2 12s0 3.200.400 4.800c.200.900.900 1.500 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.400c.900-.300 1.600-.900 1.800-1.800.400-1.600.400-4.800.400-4.800s0-3.200-.400-4.800zM10 15V9l5.200 3z"/></svg></i><b>YouTube</b></a>
+    </div>
+    <div class="letters" aria-label="Lemon">
+      <img src="assets/media/letters/l1.webp" alt="" draggable="false"><img src="assets/media/letters/l2.webp" alt="" draggable="false"><img src="assets/media/letters/l3.webp" alt="" draggable="false"><img src="assets/media/letters/l4.webp" class="keep" alt="" draggable="false"><img src="assets/media/letters/l5.webp" alt="" draggable="false">
+  </div>
+  </div>
+  <div class="foot-contact wrap">
+    <a class="fc" href="mailto:assemdarwish.1@gmail.com">
+      <i class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.500l8 6 8-6"/></svg></i>
+      <span class="fc-txt"><small data-en="Email" data-ar="الإيميل"></small><b>assemdarwish.1@gmail.com</b></span>
+      <em>↗</em>
+    </a>
+    <a class="fc" href="https://wa.me/201040379430" target="_blank" rel="noopener">
+      <i class="fc-ic"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.29.6 4.53 1.74 6.5L3 29l6.68-1.75A12.95 12.95 0 0 0 16.04 29C23.2 29 29.04 23.18 29.04 16S23.2 3 16.04 3zm0 23.62c-2.02 0-3.99-.54-5.71-1.57l-.41-.24-3.96 1.04 1.06-3.86-.27-.4A10.6 10.6 0 0 1 5.4 16c0-5.86 4.77-10.62 10.64-10.62S26.67 10.14 26.67 16s-4.77 10.62-10.63 10.62zm5.83-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg></i>
+      <span class="fc-txt"><small>WhatsApp</small><b>+20 104 037 9430</b></span>
+      <em>↗</em>
+    </a>
+  </div>
+  <div class="foot-bottom wrap"><span>© <span id="yr"></span> Lemon Advertising Agency</span><span class="foot-mid" data-en="Advertising Agency · Design · Video · AI" data-ar="وكالة إعلانية · تصميم · فيديو · AI"></span><a href="#home" class="to-top"><span data-en="Back to top" data-ar="لفوق"></span><i>↑</i></a></div>
+</footer>
+
+</main>
+
+
+
+<a class="wa" id="waBtn" href="https://wa.me/201040379430" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <span class="wa-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.29.6 4.53 1.74 6.5L3 29l6.68-1.75A12.95 12.95 0 0 0 16.04 29C23.2 29 29.04 23.18 29.04 16S23.2 3 16.04 3zm0 23.62c-2.02 0-3.99-.54-5.71-1.57l-.41-.24-3.96 1.04 1.06-3.86-.27-.4A10.6 10.6 0 0 1 5.4 16c0-5.86 4.77-10.62 10.64-10.62S26.67 10.14 26.67 16s-4.77 10.62-10.63 10.62zm5.83-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg></span>
+  <span class="wa-label"><small data-en="Chat with us" data-ar="كلمني على"></small><b>WhatsApp</b></span>
+</a>
+<div class="modal" id="modal" aria-hidden="true">
+  <button class="close" id="close" aria-label="Close">✕</button>
+  <div class="modal-box" id="modalBox"></div>
+</div>
+
+<script src="content.js?v=11"></script>
+<script src="script.js?v=19"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
