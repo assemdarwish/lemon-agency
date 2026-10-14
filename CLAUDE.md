@@ -9,6 +9,7 @@ Copy of the Assem Darwish portfolio (`D:\My Website\website`), rebranded for "Le
 - Music removed at the owner's request (nav control, `<audio>` and all music JS). The `.music` CSS and `assets/media/audio/` are leftovers.
 - About > tools tiles (Photoshop, Illustrator, CapCut, AI Tools) removed at the owner's request; `.tool` CSS is a leftover.
 - Footer lemon (`lemon-mark.webp`, 1020x1422) is a clean redraw, not a crop of the low-res logo.
+- GitHub: https://github.com/assemdarwish/lemon-agency (public, branch `main`), live on GitHub Pages at https://assemdarwish.github.io/lemon-agency/ (deploys from main / root on every push). `gh` CLI is not installed; pushes use the stored Git Credential Manager login.
 - Preview: `python -m http.server 5174` (port 5174 so it doesn't clash with the portfolio).
 
 ---
