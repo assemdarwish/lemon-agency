@@ -774,3 +774,6 @@ html[data-theme=light] .foot-contact h4,html[data-theme=light] .foot-grid h4{col
 .loader-hi span:nth-child(3){color:var(--g)}
 html[data-theme=light] .loader .loader-logo{content:url(assets/media/lemon-logo-dark.webp)}
 .hero-media img{object-position:50% 45%}
+.loader-hi{font-family:var(--display);font-stretch:112%;font-weight:900;letter-spacing:.02em;text-transform:uppercase}
+.loader-hi span:nth-child(2){color:var(--t)}
+html[data-theme=light] .loader-hi span:nth-child(2){color:var(--ta)}

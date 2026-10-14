@@ -2,7 +2,7 @@
 
 Copy of the Assem Darwish portfolio (`D:\My Website\website`), rebranded for "Lemon Agency".
 - Colours from the logo: yellow `#f2c811` (`--a`), light yellow `#ffd84a` (`--t`), leaf green `#8cc63f` (`--g`), black. Text on yellow = `--on-a` (dark); accent text on light surfaces = `--ta` (deep yellow `#7a6100`). The rest of this file describes the original; red values there now map to these.
-- Logo: `assets/media/lemon-logo.webp` (white ink, dark bg), `lemon-logo-dark.webp` (dark ink, day mode), `lemon-mark.webp` (the lemon "O", footer centre + favicons), source `lemon-logo-src.webp`. Intro shows the logo instead of the portrait; footer letters are L-E-M-O-N (`l4` = the lemon, class `keep`, never inverted).
+- Logo: `assets/media/lemon-logo.webp` (white ink, dark bg), `lemon-logo-dark.webp` (dark ink, day mode), `lemon-mark.webp` (the lemon "O", footer centre + favicons), source `lemon-logo-src.webp`. Intro shows the logo instead of the portrait, with "LEMON AGENCY" under it (replaced the Arabic greeting); footer letters are L-E-M-O-N (`l4` = the lemon, class `keep`, never inverted).
 - Contact email / WhatsApp / social links are still the owner's personal ones until the agency's are given.
 - Hero photo: `assets/media/hero-lemon.webp` (Sheraton branch poster, owner's).
 - Video editing section (WORK 03) and its service row were removed at the owner's request; work is now 4 sections (Social, AI, GIFs, Print). `renderEditing()` exits when `#stack` is missing; the `EDITING` array is a leftover.
